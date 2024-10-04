@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <title>Aaron Sanga</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Assignment1.css'>
+</head>
+<body>
+    <header id="header">
+        <div class="header box">
+            <div class="navbar">
+                <div class="logo">A.S</div>
+                <ul>
+                    <li>
+                        <a href="#home" class="navLink scrollto active"> 
+                        <span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="#about" class="navLink scrollto">
+                        <span>About</span></a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="navLink scrollto">
+                        <span>Projects</span></a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="navLink scrollto">
+                        <span>Contact</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <section id="home">
+        <div class="home-container">
+            <div class="content">
+                <h2>Sup,</h2>
+                <h2>I'm Aaron Sanga</h2>
+                <ul>
+                    <li>
+                    <a href="#about" class="navLink scrollto">
+                    <span>Learn More About Me</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-video">
+                    <video width="300" height="220" controls>
+                        <source src="on_record.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>
+                        I’m Aaron Sanga, a 2nd year student at Ontario Tech University. I am
+                        currently completing my 4 year program in Technology Management BIT 
+                        with an increasing interest in combining my interest for both business
+                        and technology into a career that I can be proud of in the future. 
+                    </p>
+                </div>
+                <div class="about-photo">
+                    <img src="PicOfMe.jpeg" alt="Aaron Sanga">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="project-container">
+            <div class="project-header">
+                <h2>Here are my recent projects</h2>
+            </div>
+            <div class="projectInfo">
+                <div class="project-image">
+                    <img src="Project1.png" alt="Cipher Project">
+                </div>
+                <div class="project-text">
+                    <h3>Project 1</h3>
+                    <h4>Random Cipher Generator</h4>
+                    <p>This project was completed in Intro to Object Oriented Programming
+                        in which the program I have created defines and executes various ciphers
+                        including a ceasar cipher, transposition cipher, product cipher, substitution 
+                        cipher, playfair cipher, and an RSA cipher. The program takes an input from the 
+                        user and randomly selects one of these ciphers to use on the user generated text.
+                    </p>
+                </div>
+            </div>
+            <div class="projectInfo">
+                <div class="project-text">
+                    <h3>Project 2</h3>
+                    <h4>BMI Calculator</h4>
+                    <p>This is another project created in Into to Object Oriented Programming in which a 
+                        seperate tab is opened and asks for the users weight in kilograms and height in meters 
+                        in order to calculate their Body Mass Index. The program will then determine based on 
+                        real life statistics whether the inputs provided by the user and their resulting BMI 
+                        classifies them as underweight, overweight, or healthy. 
+                    </p>
+                </div>
+                <div class="project-image">
+                    <img src="Project2.png" alt="Cipher Project">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+    <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form action="mailto:aaron.sanga@ontariotechu.net" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </div>
+    </section>
+    <footer id="footer">
+        <div class="footer container">
+            <div>
+                <h1><span>Thank You For Visting!</span></h1>
+            </div>
+            <h3>aaron.sanga@ontariotechu.net</h3>
+            <p>Copyright © 2024 as. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
